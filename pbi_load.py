@@ -1,0 +1,7 @@
+import yfinance as yf
+
+stocks=["2330.TW", "2345.TW", "", "5274.TW", "2317.TW","2454.TW"]
+datas = yf.download(stocks, period="10d")
+yf.dow
+datas_reset = datas.reset
+print(datas)

@@ -30,6 +30,7 @@ def ticker_history(id):
 def ticker_download():
     stocks=["2330.TW", "2345.TW", "MSFT", "NVDA", "APLE","TSLA"]
     datas = yf.download(stocks, period="3d")
+    
     print(datas)
     
 
